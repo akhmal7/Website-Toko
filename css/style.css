@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand" sans-serif;
+}
+
+body{
+    background-image: url("background/background.jpg");    
+
+}
+
+#bg-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box-login{
+    width: 300px;
+    min-height: 200px;
+    background-color: #191A19;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.box-login h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: blanchedalmond;
+    font-family: 'Quicksand', sans-serif;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.btn{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    display: inline-block;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: grey;
+}
+#body-profil{
+    background-color: white;
+}
+.box{
+    margin: 20px;
+    border: 0px solid;   
+}
+.input-control-profil{
+    color: black;
+    width: 80%;
+    display: flexbox;
+    padding: 8px;
+    margin: 200px;
+    
+}
+h6{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    font-family: "Quicksand" sans-serif;
+
+}
+.button{
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    
+}
+.button:hover{
+    background-color:#0B4619;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.data-table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.data-table tr, .data-table td{
+    padding: 10px 14px;
+}
+.data-table td, .data-table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.data-table tr:nth-child(even){
+    background-color: #f2f2f2;
+    height: 30px;
+}
+.data-table tr:hover{
+    background-color: #ddd;
+}
+.data-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.data-table th{
+    text-align: center;
+}
+.select-class {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+}
